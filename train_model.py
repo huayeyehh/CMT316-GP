@@ -216,7 +216,6 @@ class SentiRegression(object):
         print("Senti Regression Model Trained.")
 
 
-    # TODO: find the appropriate bound for classification
     def test(self, val_set_x, val_set_y):
         # test with val set
         x, y = [], []
