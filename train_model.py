@@ -94,11 +94,6 @@ class SentiSVC(object):
 
 
 import pandas as pd
-#from SentiRegression import SentiRegression
-#from SentiSVC import SentiSVC
-#from SentiLexicon import SentiLexicon
-#from SentiNB import SentiNB
-#from SentiTFIDF import SentiTFIDF
 
 def read_data(set_name):
     text_file_name  = set_name + "_text.txt"
